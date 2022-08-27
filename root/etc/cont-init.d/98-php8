@@ -1,10 +1,7 @@
 #!/usr/bin/with-contenv bash
 
 echo "**** installing php8 and composer ****"
-apt-get install -y \
+apt install php-xml -y \
+  php-curl -y \
   composer \
   php8.0
-
-echo "**** installing php8 modules ****"
-apt install php-xml
-apt-get install php-curl
