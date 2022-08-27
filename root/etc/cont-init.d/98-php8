@@ -3,6 +3,6 @@
 echo "**** installing php8 and composer ****"
 apt install php-xml -y \
   php-curl -y \
-  php8.0-mysql -y \
+  php-mysql -y \
   composer \
   php8.0
